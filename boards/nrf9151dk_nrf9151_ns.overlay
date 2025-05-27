@@ -1,0 +1,16 @@
+&adc {
+	status = "disabled";
+};
+
+&i2c2 {
+	status = "disabled";
+};
+
+&spi3 {
+	status = "disabled";
+};
+
+/* Disable external flash */
+&gd25wb256 {
+	status = "disabled";
+};

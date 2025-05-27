@@ -1,0 +1,17 @@
+&adc {
+	status = "disabled";
+};
+
+&i2c2 {
+	status = "disabled";
+};
+
+&spi3 {
+	status = "disabled";
+};
+
+&arduino_spi {
+	mx25r64: mx25r6435f@1 {
+		status = "disabled";
+	};
+};
